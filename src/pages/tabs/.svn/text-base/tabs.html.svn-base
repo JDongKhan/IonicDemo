@@ -1,0 +1,6 @@
+<ion-tabs #mainTabs (ionChange)="changeTabs()" tabbarPlacement="bottom" selectedIndex="selectIndex" color="danger" tabsHighlight="true">
+  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="About"  tabIcon="information-circle"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Contact"  tabBadge="3" swipeBackEnabled="true" tabBadgeStyle="danger" tabIcon="contacts" tabsHideOnSubPages="true"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="Login" (ionSelect)="loginAction()" tabIcon="contacts"></ion-tab>
+</ion-tabs>

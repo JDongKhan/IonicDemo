@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides #slider pager="true"
+              loop="true">
+    <ion-slide>
+      <div class="activitycontent">
+        <ion-card>
+          <ion-row>
+            <ion-col width-33>
+              <ion-thumbnail class="img-box"
+                             [ngStyle]="{ 'background-image': 'url(' + 'http://files.ovdream.com/2017/01/16/1484557151634.jpg' + ')'}">
+              </ion-thumbnail>
+            </ion-col>
+
+            <ion-col width-67 style="position: relative">
+              <h2 style="text-align: left">MicroStrategy微策略全球用户峰会上海站</h2>
+              <div style="position: absolute ;float: left; bottom: 25%">
+                <p class="fourinner">已结束</p>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+        <div class="littletitle">
+          <p class="fourimg">
+            <img style="width:15px;padding-right:5px" src="assets/images/time@2x.png">
+            <span>2017-1-17  09:00  5:30</span>
+          </p>
+          <p class="fourimg">
+            <img style="width:25px; padding-right:5px" src="assets/images/position@2x.png">
+            <span>上海市静安区四季酒店</span>
+          </p>
+        </div>
+        <div style="height: 20px"></div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="activitycontent">
+        <ion-card>
+          <ion-row>
+            <ion-col width-33>
+              <ion-thumbnail class="img-box"
+                             [ngStyle]="{ 'background-image': 'url(' + 'http://files.ovdream.com/2017/01/16/1484557151634.jpg' + ')'}">
+              </ion-thumbnail>
+            </ion-col>
+
+            <ion-col width-67 style="position: relative">
+              <h2 style="text-align: left">MicroStrategy微策略全球用户峰会上海站</h2>
+              <div style="position: absolute ;float: left; bottom: 10px">
+                <p class="fourinner">已结束</p>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+        <div class="littletitle">
+          <p class="fourimg">
+            <img style="width:25px; padding-right:5px" src="assets/images/time@2x.png">
+            <span>2017-1-17  09:00  5:30</span>
+          </p>
+          <p class="fourimg">
+            <img style="width:25px; padding-right:5px" src="assets/images/position@2x.png">
+            <span>上海市静安区四季酒店</span>
+          </p>
+        </div>
+        <div style="height: 20px"></div>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

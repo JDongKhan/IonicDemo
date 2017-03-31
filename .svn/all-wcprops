@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/package.json
+END
+tsconfig.json
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/tsconfig.json
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/config.xml
+END
+.chcpenv
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/.chcpenv
+END
+tslint.json
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/tslint.json
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/.gitignore
+END
+.editorconfig
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/.editorconfig
+END
+ionic.config.json
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/ionic.config.json
+END
+cordova-hcp.json
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HSCY/InternetSaleTicket/!svn/ver/46971/trunk/Sources/client/ionic/IonicDemo/cordova-hcp.json
+END

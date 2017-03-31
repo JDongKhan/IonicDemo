@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      List
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let contact of contacts" (click)="itemClick($event, contact)">
+      <ion-avatar item-left><img src="assets/images/{{contact.icon}}" alt=""></ion-avatar>
+      <h2>{{contact.title}}</h2>
+      <p>{{contact.detail}}</p>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
